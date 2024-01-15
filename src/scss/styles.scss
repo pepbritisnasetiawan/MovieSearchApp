@@ -1,0 +1,24 @@
+// Import all of Bootstrap's CSS
+@import "~bootstrap/scss/bootstrap";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 1.5rem;
+}
+
+.carousel-item {
+  height: 600px;
+  width: 100%;
+}
+
+.carousel-item img {
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
+  filter: brightness(0.6);
+}
